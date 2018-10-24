@@ -1,7 +1,7 @@
 # web-admin
 
-一个后台管理系统的项目，使用的技术是vue + vue-router + vuex + element-ui
-后台服务是用node写的，地址： https://github.com/fate66/admin-server
+一个后台管理系统，前后端分离，vue做前端，node写后台。这个项目是前端项目，使用的技术是vue + vue-router + vuex + element-ui
+后台服务地址： https://github.com/fate66/admin-server
 
 ## Build Setup
 
