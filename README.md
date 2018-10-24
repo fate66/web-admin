@@ -1,6 +1,5 @@
 # web-admin
 
-> A Vue.js project
 一个后台管理系统的项目，使用的技术是vue + vue-router + vuex + element-ui
 后台服务是用node写的，地址： https://github.com/fate66/admin-server
 
