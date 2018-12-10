@@ -23,6 +23,9 @@ export default {
     customerList: webApi + '/v1/customer/customerList',
     customerDetail: webApi + '/v1/customer/customerDetail',
     customerDel: webApi + '/v1/customer/customerDel'
+  },
+  features: {
+    featuresUpload: webApi + '/v1/features/upload'
   }
 
 }

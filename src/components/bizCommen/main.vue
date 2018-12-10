@@ -1,6 +1,6 @@
 <template>
   <div class="main-box">
-      <el-header>进销存管理系统</el-header>
+      <el-header>CRM管理系统</el-header>
     <div class="aside">
         <v-menu></v-menu>
     </div>

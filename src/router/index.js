@@ -10,6 +10,7 @@ const storeHouseAdd = resolve => require(['@/view/storeHouse/storeHouseAdd'], re
 const storeHouseList = resolve => require(['@/view/storeHouse/storeHouseList'], resolve)
 const customerAdd = resolve => require(['@/view/custormer/customerAdd'], resolve)
 const customerList = resolve => require(['@/view/custormer/customerList'], resolve)
+const uploadFile = resolve => require(['@/view/features/uploadFile'], resolve)
 
 const home = resolve => require(['@/view/home'], resolve)
 
@@ -116,6 +117,22 @@ let router = new Router({
                 meta: {
                   menu: false,
                   title: '编辑客户'
+                }
+              }]
+            }, {
+              path: 'features',
+              component: App,
+              meta: {
+                title: '小功能',
+                icon: 'el-icon-menu'
+              },
+              children: [{
+                path: 'uploadFile',
+                name: 'uploadFile',
+                component: uploadFile,
+                meta: {
+                  menu: true,
+                  title: '上传文件'
                 }
               }]
             }]
