@@ -3,7 +3,7 @@ import axiosUtils from 'axios/lib/utils'
 import Vue from 'vue'
 import router from '@/router'
 
-// import base from 'base'
+import base from 'base'
 
 function setContentTypeIfUnset (headers, value) {
   if (!axiosUtils.isUndefined(headers) && axiosUtils.isUndefined(headers['Content-Type'])) {
@@ -26,7 +26,7 @@ axios.defaults.transformRequest = [function (data, headers) {
   }
 }]
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest'
-// axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? base.productionHost : base.developtionHost
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? base.productionHost : base.developtionHost
 
 // http request 拦截器
 axios.interceptors.request.use((config) => {
