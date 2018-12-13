@@ -3,7 +3,7 @@ import axiosUtils from 'axios/lib/utils'
 import Vue from 'vue'
 import router from '@/router'
 
-import base from 'base'
+import base from '../../../base'
 
 function setContentTypeIfUnset (headers, value) {
   if (!axiosUtils.isUndefined(headers) && axiosUtils.isUndefined(headers['Content-Type'])) {
