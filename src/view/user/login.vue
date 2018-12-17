@@ -101,6 +101,7 @@ export default {
   .title {
     text-align: center;
     font-size: 25px;
+    margin-bottom: 0;
   }
   .sub-title{
     text-align: center;
