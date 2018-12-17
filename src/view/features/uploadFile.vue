@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
   .upload-box {
     padding-top: 50px;
     padding-left: 70px;

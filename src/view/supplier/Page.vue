@@ -63,7 +63,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
   .page {
     margin-top: 30px;
     text-align: right;

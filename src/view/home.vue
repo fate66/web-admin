@@ -21,7 +21,7 @@ export default {
   methods: {}
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
   .title {
     text-align: center;
     margin-bottom: 50px;

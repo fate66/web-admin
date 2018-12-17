@@ -67,7 +67,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
   .editForm {
     margin-top: 50px;
     width: 70%;
