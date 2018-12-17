@@ -15,7 +15,7 @@ export default {
   storeHouse: {
     storeHouseAdd: webApi + '/v1/storeHouse/storeHouseAdd',
     storeHouseList: webApi + '/v1/storeHouse/storeHouseList',
-    supplierDetail: webApi + '/v1/storeHouse/supplierDetail',
+    storeHouseDetail: webApi + '/v1/storeHouse/storeHouseDetail',
     storeHouseDel: webApi + '/v1/storeHouse/storeHouseDel'
   },
   customer: {
