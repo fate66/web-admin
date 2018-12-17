@@ -48,7 +48,7 @@ export default {
       this.$Ajax.get(this.$Api.storeHouse.storeHouseDetail, {id: this.id}, res => {
         if (res.storeHouse) {
           this.setV(0, res.storeHouse.storeName)
-          this.setV(2, res.storeHouse.storeAddress)
+          this.setV(1, res.storeHouse.storeAddress)
         }
       })
     },
