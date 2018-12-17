@@ -47,10 +47,8 @@ export default {
     supplierDetail () {
       this.$Ajax.get(this.$Api.storeHouse.storeHouseDetail, {id: this.id}, res => {
         if (res.storeHouse) {
-          this.setV(0, res.supplier.name)
-          this.setV(1, res.supplier.phone)
-          this.setV(2, res.supplier.address)
-          this.setV(3, res.supplier.postalCode)
+          this.setV(0, res.storeHouse.storeName)
+          this.setV(2, res.storeHouse.storeAddress)
         }
       })
     },
