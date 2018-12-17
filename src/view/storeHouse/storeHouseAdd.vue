@@ -46,7 +46,7 @@ export default {
   methods: {
     supplierDetail () {
       this.$Ajax.get(this.$Api.storeHouse.storeHouseDetail, {id: this.id}, res => {
-        if (res.supplier) {
+        if (res.storeHouse) {
           this.setV(0, res.supplier.name)
           this.setV(1, res.supplier.phone)
           this.setV(2, res.supplier.address)
