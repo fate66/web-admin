@@ -83,11 +83,10 @@ export default {
     setTimeout(() => {
       loading.close()
       FN && typeof FN === 'function' && FN()
-    }, 500)
+    }, 100)
   },
   _formatRES (res, options) {
     this._removeLoading(() => {
-      console.log(res.data.status.status_code, 'res')
       if (res.data.status.status_code === Vue.prototype.$Consts.STATE_CODE.LOGIIN) {
         router.app.$router.push({name: 'login'})
         return
