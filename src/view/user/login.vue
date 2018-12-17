@@ -5,7 +5,7 @@
         <div class="title">CRM管理系统（先注册-->后登陆）或使用以下账号</div>
         <div class="sub-title">用户名：张三</div>
         <div class="sub-title">手机号：15736885432</div>
-        <div class="sub-title">密码：123456</div>
+        <div class="sub-title" style="margin-bottom: 50px">密码：123456</div>
       </el-col>
     </el-row>
     <el-row :gutter="20">
@@ -100,13 +100,12 @@ export default {
 <style lang="scss">
   .title {
     text-align: center;
-    margin-bottom: 50px;
     font-size: 25px;
   }
   .sub-title{
     text-align: center;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
     color: #666666;
   }
 
