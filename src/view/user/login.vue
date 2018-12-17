@@ -2,7 +2,10 @@
   <div class="login">
     <el-row :gutter="20">
       <el-col :span="8" :offset="8">
-        <div class="title">后台管理系统（先注册-->后登陆）</div>
+        <div class="title">CRM管理系统（先注册-->后登陆）或使用以下账号</div>
+        <div>用户名：张三</div>
+        <div>手机号：15736885432</div>
+        <div>密码：123456</div>
       </el-col>
     </el-row>
     <el-row :gutter="20">
