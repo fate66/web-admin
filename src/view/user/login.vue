@@ -92,7 +92,7 @@ export default {
         } else {
           this.$message('注册成功，稍后将登录')
           this.$cacheUtils.localStorage('user').setObject('user', res.user)
-          setTimeout(() => this.$router.push({name: 'home'}), 1000)
+          setTimeout(() => this.$router.push({name: 'home'}), 1500)
         }
       })
     }
