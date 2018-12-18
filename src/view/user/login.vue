@@ -90,7 +90,8 @@ export default {
         if (!res.user) {
           this.$message('该账号已注册，请登录')
         } else {
-          this.$message('注册成功，请直接登录')
+          this.$message('注册成功，稍后将登录')
+          setTimeout(() => this.$router.push({name: 'home'}), 300)
         }
       })
     }
