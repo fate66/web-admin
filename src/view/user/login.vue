@@ -91,6 +91,7 @@ export default {
           this.$message('该账号已注册，请登录')
         } else {
           this.$message('注册成功，稍后将登录')
+          this.$cacheUtils.localStorage('user').setObject('user', res.user)
           setTimeout(() => this.$router.push({name: 'home'}), 300)
         }
       })
