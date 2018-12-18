@@ -75,7 +75,7 @@ let router = new Router({
               path: 'storeHouse',
               component: App,
               meta: {
-                title: '苍库管理',
+                title: '仓库管理',
                 icon: 'el-icon-menu'
               },
               children: [{
