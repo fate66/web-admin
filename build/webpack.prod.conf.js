@@ -81,7 +81,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     new PreloadWebpackPlugin({
       rel: 'preload',
-      include: ['vendor']
+      include: ['vendor', 'manifest', 'app']
     }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
