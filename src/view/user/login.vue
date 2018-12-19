@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-row :gutter="20">
-      <el-col :span="8" :offset="8">
+      <el-col :span="10" :offset="8">
         <div class="title">CRM管理系统（先注册-->后登陆）或使用以下账号</div>
         <div class="sub-title">用户名：张三</div>
         <div class="sub-title">手机号：15736885432</div>
