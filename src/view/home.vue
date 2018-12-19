@@ -4,9 +4,11 @@
       <el-col :span="8" :offset="8">
         <div class="title">CRM后台管理系统</div>
         <div>前后端分离项目，前端VUE、后端nodejs</div>
-        <a href="https://github.com/fate66/admin-server">后端项目源码</a>
-        <a href="https://github.com/fate66/web-admin">前端项目源码</a>
-        <a href="https://github.com/fate66/admin-on-line">自动化上线源码</a>
+        <div class="git">
+          <a href="https://github.com/fate66/admin-server">后端项目源码</a>
+          <a href="https://github.com/fate66/web-admin">前端项目源码</a>
+          <a href="https://github.com/fate66/admin-on-line">自动化上线源码</a>
+        </div>
       </el-col>
     </el-row>
   </div>
@@ -31,5 +33,10 @@ export default {
   .login {
     padding-top: 100px;
   }
-
+  .git{
+    margin-top: 30px;
+    & >a{
+      margin-left: 10px;
+    }
+  }
 </style>
