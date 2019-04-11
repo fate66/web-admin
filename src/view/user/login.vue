@@ -61,9 +61,7 @@ export default {
     }
   },
   created () {
-    // if (!this.$cacheUtils.localStorage('uuid').get('uuid')) {
     this.getUUID()
-    // }
   },
   methods: {
     login (data) {
